@@ -1,0 +1,38 @@
+INICIO
+
+  numero[3]: ENTERO
+  ESCRIBIR: numero_0
+  LEER: numero[0]
+  ESCRIBIR: numero_1
+  LEER: numero[1]
+  ESCRIBIR: numero_2
+  LEER: numero[2]
+  SI numero_2 < 9 ENTONCES
+         ESCRIBIR: numero_2
+         numero_2 := numero_2 + 1
+  FIN SI
+  DE LO CONTRARIO
+         ESCRIBIR: numero_2
+         numero_2 := numero_2 + 1
+         ESCRIBIR: numero_1
+         LEER: numero_1
+         numero_1 := numero_1 + 1
+         
+ FIN
+ 
+ //>>> 0
+ //>>> 1
+ //>>> 2
+ //>>> 3
+ //>>> 4
+ //>>> 5
+ //>>> 6
+ //>>> 7
+ //>>> 8
+ //>>> 9
+ 
+         
+              
+  
+ 
+  
